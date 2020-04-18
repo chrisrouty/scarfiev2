@@ -7,10 +7,8 @@ import {Styled} from './styled';
 const SubscribeNewsletter = () => {
     return(
         <Styled>
-            <form>
-                <input type="text" placeholder="Inscrivez-vous à la newsletter" />
-                <input type="submit" value="OK" />
-            </form>
+            <input type="text" placeholder="Entrez votre email" />
+            <button>OK</button>
         </Styled>
     )
 }

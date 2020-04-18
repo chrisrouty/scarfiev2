@@ -7,7 +7,9 @@ import {Styled} from './styled';
 function WrapperForm({...props}) {
     return (
         <Styled {...props}>
-            {props.children}
+            <form>
+                {props.children}
+            </form>
         </Styled> 
     );
 }

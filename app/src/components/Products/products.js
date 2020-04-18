@@ -40,12 +40,12 @@ const Products = ({products, imgs, ...props}) => {
     return products.slice(0, 23).map((product, index) => (
         <Fragment key={index}>
           {index === 5 && 
-            <WrapperSubscribe>
+            <WrapperSubscribe> 
+              <h3>Suivez les nouveautés de Scarfie</h3>
               <WrapperForm>
-                <h3>Suivez les nouveautés de Scarfie</h3>
                 <SubscribeNewsletter />
-                <SocialNetwork />
               </WrapperForm>
+              <SocialNetwork />
             </WrapperSubscribe>
           }
           <Styled {...props}>
