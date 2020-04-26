@@ -41,7 +41,7 @@ const Products = ({products, imgs, ...props}) => {
         <Fragment key={index}>
           {index === 5 && 
             <WrapperSubscribe> 
-              <h3>Suivez les nouveautés de Scarfie</h3>
+              <h3>Souscrire à la newsletter de Scarfie !</h3>
               <WrapperForm>
                 <SubscribeNewsletter />
               </WrapperForm>
